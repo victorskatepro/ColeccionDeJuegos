@@ -13,6 +13,7 @@
 		E22767DC209117DC006C8CFA /* ColeccionDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E22767DA209117DC006C8CFA /* ColeccionDeJuegos.xcdatamodeld */; };
 		E22767DE209117DC006C8CFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22767DD209117DC006C8CFA /* Assets.xcassets */; };
 		E22767E1209117DC006C8CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22767DF209117DC006C8CFA /* LaunchScreen.storyboard */; };
+		E22767E9209125C3006C8CFA /* JuegoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22767E8209125C3006C8CFA /* JuegoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E22767DD209117DC006C8CFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E22767E0209117DC006C8CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E22767E2209117DC006C8CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E22767E8209125C3006C8CFA /* JuegoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E22767DF209117DC006C8CFA /* LaunchScreen.storyboard */,
 				E22767E2209117DC006C8CFA /* Info.plist */,
 				E22767DA209117DC006C8CFA /* ColeccionDeJuegos.xcdatamodeld */,
+				E22767E8209125C3006C8CFA /* JuegoViewController.swift */,
 			);
 			path = ColeccionDeJuegos;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E22767D6209117DC006C8CFA /* ViewController.swift in Sources */,
+				E22767E9209125C3006C8CFA /* JuegoViewController.swift in Sources */,
 				E22767D4209117DC006C8CFA /* AppDelegate.swift in Sources */,
 				E22767DC209117DC006C8CFA /* ColeccionDeJuegos.xcdatamodeld in Sources */,
 			);
@@ -278,12 +282,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8N4CSFF85V;
 				INFOPLIST_FILE = ColeccionDeJuegos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.ColeccionDeJuegos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.ColeccionDeJuegos1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -293,12 +300,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8N4CSFF85V;
 				INFOPLIST_FILE = ColeccionDeJuegos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.ColeccionDeJuegos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.ColeccionDeJuegos1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
